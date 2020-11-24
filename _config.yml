@@ -86,8 +86,8 @@ author:
   location         : "Brooklyn, NY"
   employer         :
   pubmed           :
-  googlescholar    : "vizgand@gmail.com"
-  email            :
+  googlescholar    : 
+  email            : "vizgand@gmail.com"
   researchgate     : 
   uri              :
   bitbucket        :
@@ -99,7 +99,7 @@ author:
   github           : "davidvizgan"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "davidvizgan"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
