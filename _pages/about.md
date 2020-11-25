@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: " "My goal is simple. It is a complete understanding of the universe, why it is as it is and why it exists at all." -- Stephen Hawking"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,10 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am David, a senior at Wesleyan University currently working on the debris disk around AU Microscopii and on simulations of high-redshift galaxies. I am currently applying for fellowships and to graduate school programs in Astronomy. My research interests are robust but I am generally interested in the early universe and in astrophysical modelling/simulations. 
+Hello! I am David, a senior at Wesleyan University. I am a undergraduate researcher currently working on circumstellar disks and on high-redshift galaxies. I am currently applying for fellowships and to graduate school programs in Astronomy. My research interests are robust but I am generally interested in the early universe and in astrophysical modelling/simulations. 
 
-A brief biography
+My background
 ======
-I am a quadruplet, and a Brooklyn native. I graduated high school in 2017 and attended Wesleyan University, where I expect to graduate in May 2021 as a Astronomy and Physics double major. In my free time I write and record heavy music, play piano and guitar, study chess, and dabble in old school RPGs. 
 
+I began studying at Wesleyan University in September 2017. In the summer of 2018 I worked in Prof. Meredith Hughes's "Disk Detectives" group, combining modelling codes for eccentric protoplanetary disks and circular debris disks to model eccentric debris disks. In this group I am currently investigating the grain-size dependent physics and the vertical structure of the debris disk around AU Microscopii. I was an undergraduate research fellow at the Cosmic Dawn Center in Copenhagen, Denmark during the summer of 2019, where I began work with Prof. Thomas Greve on simulating line emission in high-redshift galaxies. This project received the Chambliss Award from the American Astronomical Society in January 2020. I will be receiving my BA in Astronomy and Physics in May 2021. 
 
+My hobbies
+======
+
+Beyond astrophysics, I am a lifelong musician, classically trained in piano and a self-taught guitarist and drummer. In my free time I enjoy writing and performing heavy music with friends. I also study chess in my free time and play in local club tournaments whenever I'm home. Lastly, I am a fan of sci-fi video games and of old-school RPGs.
