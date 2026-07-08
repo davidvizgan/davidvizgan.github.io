@@ -7,10 +7,21 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
-  background: #fff;
+  background: pink;
   color: #000;
   margin: 0;
-  padding: 0;
+  padding: 48px 24px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  width: 100%;
+  max-width: 720px;
+  padding: 40px 48px 48px;
+  align-self: flex-start;
 }
 
 header {
@@ -18,7 +29,6 @@ header {
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 32px 40px;
   margin-bottom: 48px;
 }
 
@@ -50,8 +60,7 @@ nav a.active {
 }
 
 main {
-  max-width: 640px;
-  padding: 0 40px 40px;
+  max-width: 100%;
 }
 
 main p {
@@ -101,4 +110,47 @@ main a {
 
 main a:hover {
   text-decoration: none;
+}
+
+.about {
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+}
+
+.about-photo {
+  flex: 0 0 200px;
+}
+
+.about-photo img {
+  width: 100%;
+  display: block;
+}
+
+.about-photo address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+  margin-top: 12px;
+}
+
+.about-email {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about-photo {
+    flex: none;
+    width: 200px;
+  }
 }
