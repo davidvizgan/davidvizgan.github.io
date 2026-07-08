@@ -19,7 +19,7 @@ body {
 .container {
   background: #fff;
   width: 100%;
-  max-width: 720px;
+  max-width: 820px;
   padding: 40px 48px 48px;
   align-self: flex-start;
 }
@@ -69,10 +69,16 @@ main p {
 }
 
 main h2 {
-  font-size: 16px;
+  font-size: 19px;
   font-weight: bold;
-  margin-bottom: 12px;
-  margin-top: 24px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 6px;
+  margin-bottom: 16px;
+  margin-top: 36px;
+}
+
+main h2:first-child {
+  margin-top: 0;
 }
 
 main ul {
@@ -104,6 +110,14 @@ main ol li {
   line-height: 1.6;
 }
 
+main ol a {
+  text-decoration: none;
+}
+
+main ol a:hover {
+  text-decoration: underline;
+}
+
 main a {
   color: #000;
 }
@@ -119,7 +133,7 @@ main a:hover {
 }
 
 .about-photo {
-  flex: 0 0 200px;
+  flex: 0 0 180px;
 }
 
 .about-photo img {
@@ -144,13 +158,13 @@ main a:hover {
   flex: 1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .about {
     flex-direction: column;
   }
 
   .about-photo {
     flex: none;
-    width: 200px;
+    width: 180px;
   }
 }
