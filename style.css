@@ -50,7 +50,7 @@ nav a.active {
 }
 
 main {
-  max-width: 540px;
+  max-width: 640px;
   padding: 0 40px 40px;
 }
 
@@ -73,6 +73,25 @@ main ul {
 
 main ul li {
   margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+main ul ul {
+  margin-top: 2px;
+  padding-left: 24px;
+}
+
+main ul ul li {
+  margin-bottom: 2px;
+  color: #555;
+}
+
+main ol {
+  padding-left: 20px;
+}
+
+main ol li {
+  margin-bottom: 12px;
   line-height: 1.6;
 }
 
