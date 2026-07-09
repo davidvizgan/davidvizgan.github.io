@@ -69,9 +69,9 @@ main p {
 }
 
 main h2 {
-  font-size: 19px;
+  font-size: 16px;
   font-weight: bold;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
   padding-bottom: 6px;
   margin-bottom: 16px;
   margin-top: 36px;
