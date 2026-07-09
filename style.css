@@ -60,11 +60,16 @@ nav a.active {
 
 .lang {
   position: fixed;
-  top: 12px;
-  right: 14px;
+  top: 10px;
+  right: 12px;
   z-index: 10;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 1;
+}
+
+.lang a,
+.lang .current {
+  font-size: inherit;
 }
 
 .lang a {
