@@ -379,6 +379,9 @@
     canvas = document.createElement('canvas');
     canvas.id = 'sky';
     canvas.setAttribute('aria-hidden', 'true');
+    // inline styles so layout never depends on a (possibly stale-cached) stylesheet
+    canvas.style.cssText =
+      'position:fixed;top:0;left:0;right:0;bottom:0;z-index:-1;pointer-events:none;';
     document.body.prepend(canvas);
     ctx = canvas.getContext('2d');
     skyLow = document.createElement('canvas');
