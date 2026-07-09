@@ -158,13 +158,57 @@ main a:hover {
   flex: 1;
 }
 
+.research-item {
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+  margin-bottom: 48px;
+}
+
+.research-item img {
+  flex: 0 0 180px;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.research-item > div {
+  flex: 1;
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 16px 10px;
+  }
+
+  .container {
+    padding: 28px 24px;
+  }
+
+  header {
+    flex-direction: column-reverse;
+    gap: 16px;
+    margin-bottom: 36px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 8px 16px;
+  }
+}
+
 @media (max-width: 480px) {
-  .about {
+  .about,
+  .research-item {
     flex-direction: column;
   }
 
   .about-photo {
     flex: none;
     width: 180px;
+  }
+
+  .research-item img {
+    flex: none;
   }
 }
