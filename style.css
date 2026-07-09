@@ -160,6 +160,11 @@ main a:hover {
   margin-top: 8px;
 }
 
+.about-links {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
 .about-text {
   flex: 1;
 }
